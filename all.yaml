@@ -1,147 +1,74 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|1.4MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.18
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1|1018KB/s"
-      network: ws
-      port: "443"
-      server: 188.114.99.0
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1|3.1MB/s"
-      network: ws
-      port: 443
-      server: saas.sin.fan
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-      xudp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s"
-      port: 9443
-      server: 84.17.50.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.1MB/s"
-      port: 443
-      server: 84.17.50.193
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E8\U0001F1EDCH_1|1.1MB/s"
+    - name: "\U0001F1F1\U0001F1FALU_1|2.1MB/s"
       password: None
-      port: 9443
-      server: 149.88.27.33
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EA\U0001F1EAEE_1|2.4MB/s"
-      port: 9443
-      server: 95.153.31.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E8\U0001F1EDCH_2|1.0MB/s"
-      password: None
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F8\U0001F1EASE_1|1.0MB/s"
-      port: 9443
-      server: 146.70.242.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_3|1.3MB/s"
-      password: None
-      port: 443
-      server: 185.164.138.156
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F1\U0001F1FALU_1|1.3MB/s"
-      password: null
       port: 9443
       server: 185.221.132.226
       skip-cert-verify: true
       tls: true
       type: http
-      username: null
-    - name: "\U0001F1EE\U0001F1F9IT_2|1.1MB/s"
-      password: null
-      port: 443
-      server: 185.183.105.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F5\U0001F1F1PL_1|1.9MB/s"
-      port: 443
-      server: 37.120.156.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EA\U0001F1EAEE_2|1011KB/s"
+    - name: "\U0001F1EA\U0001F1EAEE_1|2.1MB/s"
       port: 9443
-      server: 95.153.32.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
-      password: null
-      port: 443
-      server: 152.233.20.206
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F8\U0001F1EASE_2|1.4MB/s"
-      port: 443
-      server: 149.50.216.65
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E6\U0001F1F1AL_1|1.6MB/s"
-      port: 443
-      server: 87.120.103.242
+      server: 95.153.31.66
       skip-cert-verify: true
       tls: true
       type: http
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_2|1.7MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s"
+      port: 443
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 103.91.147.212
+      servername: de.ozon.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 261160d5-0343-4b85-8c28-3d40dd681559
+    - name: "\U0001F1E8\U0001F1FFCZ_1|1.0MB/s"
+      password: null
+      port: 443
+      server: 185.216.35.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1EB\U0001F1F7FR_1|1.0MB/s"
+      port: 9443
+      server: 138.199.47.247
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E6\U0001F1F9AT_1|1.4MB/s"
+      port: 443
+      server: 146.70.244.18
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E6\U0001F1F1AL_1|1.3MB/s"
+      password: null
+      port: 443
+      server: 87.120.103.226
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1E8\U0001F1FFCZ_2|1.3MB/s"
+      password: null
+      port: 9443
+      server: 152.233.16.174
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1EE\U0001F1F3IN_1|1.8MB/s"
+      port: 52200
+      server: 120.232.204.58
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_1|3.7MB/s"
       network: ws
       port: 443
       server: 168.93.214.124
@@ -157,47 +84,38 @@ proxies:
         path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chromefp=chrome
       xudp: true
     - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
-      network: tcp
-      port: 443
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
+      network: xhttp
+      port: "443"
       reality-opts:
-        public-key: CwVoZSZr3MQ8IEaxOqmZRolV2Vw5Ve-hwhRLHuOerzg
-        short-id: 44aa59cc84b532ed
-      server: vb41fwol.himoy.space
-      servername: vb41fwol.himoy.space
-      skip-cert-verify: false
-      tfo: false
+        public-key: uVqY1zxxrmKblAAEJilzrDK8Ayv7ETSxvNvGipLoX0w
+        short-id: 86f8bb8d537297da
+      server: xuthnybd.himoy.space
+      servername: xuthnybd.himoy.space
       tls: true
       type: vless
       udp: true
       uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-    - client-fingerprint: chrome
+      xhttp-opts:
+        host: xuthnybd.himoy.space
+        mode: auto
+        path: /connect
+      xudp: true
+    - client-fingerprint: random
       encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|1.1MB/s"
-      network: xhttp
-      port: "61374"
-      reality-opts:
-        public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-        short-id: ""
-      server: se-2.pythonsetupbib.online
-      servername: se-2.pythonsetupbib.online
+      name: "\U0001F1FA\U0001F1F8US_1|4.2MB/s"
+      network: ws
+      port: "443"
+      server: ct.877774.xyz
+      servername: us-lax.862400.xyz
       tls: true
       type: vless
       udp: true
-      uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-      xhttp-opts:
-        host: se-2.pythonsetupbib.online
-        mode: packet-up
-        path: /
-        reuse-settings:
-            max-connections: "3"
-        x-padding-bytes: 100-500
+      uuid: e0ccda9e-08ba-4da3-8844-73d586c7fff7
+      ws-opts:
+        headers:
+            Host: us-lax.862400.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+        path: /announcement?ed=2048
       xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
-      password: ""
-      port: "10808"
-      server: 77.221.148.116
-      skip-cert-verify: true
-      type: socks5
-      username: ""
